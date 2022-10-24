@@ -1,4 +1,4 @@
-module github.com/Stackdriver/stackdriver-prometheus-sidecar
+module github.com/bjbloemker-google/stackdriver-prometheus-sidecar
 
 require (
 	cloud.google.com/go v0.49.0
