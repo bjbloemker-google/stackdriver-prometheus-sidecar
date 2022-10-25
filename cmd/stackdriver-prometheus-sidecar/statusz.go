@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"time"
 
-	_ "github.com/Stackdriver/stackdriver-prometheus-sidecar/cmd/stackdriver-prometheus-sidecar/statik"
+	_ "github.com/bjbloemker-google/stackdriver-prometheus-sidecar/cmd/stackdriver-prometheus-sidecar/statik"
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"
 	"github.com/prometheus/common/version"
