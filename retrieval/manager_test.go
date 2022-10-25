@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stackdriver/stackdriver-prometheus-sidecar/metadata"
-	"github.com/Stackdriver/stackdriver-prometheus-sidecar/tail"
-	"github.com/Stackdriver/stackdriver-prometheus-sidecar/targets"
+	"github.com/bjbloemker-google/stackdriver-prometheus-sidecar/metadata"
+	"github.com/bjbloemker-google/stackdriver-prometheus-sidecar/tail"
+	"github.com/bjbloemker-google/stackdriver-prometheus-sidecar/targets"
 	"github.com/go-kit/kit/log"
 	promlabels "github.com/prometheus/prometheus/pkg/labels"
 	"github.com/prometheus/prometheus/pkg/textparse"

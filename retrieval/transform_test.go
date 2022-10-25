@@ -18,8 +18,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/Stackdriver/stackdriver-prometheus-sidecar/metadata"
-	"github.com/Stackdriver/stackdriver-prometheus-sidecar/targets"
+	"github.com/bjbloemker-google/stackdriver-prometheus-sidecar/metadata"
+	"github.com/bjbloemker-google/stackdriver-prometheus-sidecar/targets"
 	"github.com/go-kit/kit/log"
 	timestamp_pb "github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/google/go-cmp/cmp"

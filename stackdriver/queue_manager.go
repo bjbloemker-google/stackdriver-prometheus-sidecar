@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stackdriver/stackdriver-prometheus-sidecar/tail"
+	"github.com/bjbloemker-google/stackdriver-prometheus-sidecar/tail"
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"
 	"github.com/pkg/errors"

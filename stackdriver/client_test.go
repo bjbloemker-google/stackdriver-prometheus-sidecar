@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stackdriver/stackdriver-prometheus-sidecar/opencensus"
+	"github.com/bjbloemker-google/stackdriver-prometheus-sidecar/opencensus"
 	"github.com/go-kit/kit/log"
 	"github.com/golang/protobuf/proto"
 	"go.opencensus.io/metric/metricexport"
