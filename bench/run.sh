@@ -4,6 +4,7 @@ set -e
 
 pushd "$( dirname "${BASH_SOURCE[0]}" )"
 
+go build github.com/bjbloemker-google/stackdriver-prometheus-sidecar/cmd/stackdriver-prometheus-sidecar
 go build github.com/Stackdriver/stackdriver-prometheus-sidecar/cmd/stackdriver-prometheus-sidecar
 
 trap 'kill 0' SIGTERM

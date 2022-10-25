@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Stackdriver/stackdriver-prometheus-sidecar/tail"
+	"github.com/bjbloemker-google/stackdriver-prometheus-sidecar/tail"
 	timestamp_pb "github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/config"
